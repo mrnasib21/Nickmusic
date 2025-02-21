@@ -1,79 +1,79 @@
 {
-    "name": "Cyber Music Bot",
-    "logo": "https://telegra.ph/file/bad69dc7929731b11e056.jpg",
-    "description": "Cyber Music project allow you to stream music trought the telegram voice chat feature.",
+    "name": "ＮＩＣＫ ꭙ ＭＵＳＩＣ 👻",
+    "logo": "https://graph.org/file/e645d6cc03374098848c6-85c88511cd33000c96.jpg",
+    "description": " Nick Music project allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/aryazakaria01/CBMusicBot",
+    "repository": "https://github.com/mrnasib21/Nickmusic",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
-            "description": "fill with the pyrogram session string",
+            "description": "BQAf70YAFIU3HtYDOEB7LB0HxpdrywbHlUgTmAHuRB0VNXSS8rK_d6cqlfT28fivwI5lhWTS90e0TUISzDc4-eTvUJ131SCB6pYAB2xCRaRf3q7wfE_7CojzJVOrmihlZtEh1RvCQn1qrsk2-rUFFvrdOgwz-QJaxKdV770fbslIyAm5nuoUN8E1ifSXhLkPiXVw6yHgPh9K3Yhgrfwp-eKocpDQewygCGqaa4J1k1CjmiJZco5_QNkGgraNcHqylwzAkbeDAkJnzKDC_11CmO3Qw8QT5IeP6hRl1vRJQsiPKXL6_Qdr1q3YtW1wVDzOHYCeiEVfjVRbNQQAn8Nw6P9kflOGGAAAAAGvBT3TAA",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "your bot token from @BotFather",
+            "description": "7957710052:AAEf5KfaQ22yM_jZj4Vxztj9bbE0lcmMNO0",
             "required": true
         },
         "BOT_NAME": {
-            "description": "your music bot name.",
+            "description": "ＮＩＣＫ ꭙ ＭＵＳＩＣ 👻",
             "required": true,
             "value": ""
         },
         "OWNER_ID": {
-            "description": "fill with your telegram id as the owner of the bot",
+            "description": "7231323603",
             "required": true,
             "value": ""
         },
         "DATABASE_URL": {
-            "description": "fill with the mongodb url get from cloud.mongodb.com",
+            "description": "mongodb+srv://mrnasib21:mrnasib21@cluster0.s4hrn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
             "required": true,
             "value": ""
         },
         "LOG_CHANNEL": {
-            "description": "create a private channel and get the channel id, add your bot as admin to the channel too",
+            "description": "-1002332259315",
             "required": true,
             "value": ""
         },
         "BROADCAST_AS_COPY": {
-            "description": "choose one between False and True, if you don't know what this is, ask to @CyberSupportGroup on telegram",
+            "description": "choose one between False and True, if you don't know what this is, ask to @Westbengalnetwork on telegram",
             "required": false,
             "value": "False"
         },
         "BOT_USERNAME": {
             "description": "fill with your bot username without @",
             "required": true,
-            "value": "CyberMusicBot"
+            "value": "NickXmusicBot"
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
-            "value": "SaitamaHelper"
+            "value": "NickXmusicBot"
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
             "required": false,
-            "value": "https://telegra.ph/file/bb35b7f4bca83551802d6.png"
+            "value": "https://graph.org/file/e645d6cc03374098848c6-85c88511cd33000c96.jpg"
         },
         "THUMB_IMG": {
             "description": "fill with costum thumbnail image it's different with bg_image",
             "required": false,
-            "value": "https://telegra.ph/file/6809135960af808e931b9.png"
+            "value": "https://graph.org/file/e645d6cc03374098848c6-85c88511cd33000c96.jpg"
         },
         "OWNER_NAME": {
             "description": "fill with your username without @",
             "required": false,
-            "value": "Badboyanim"
+            "value": "NICKPAPAJI"
         },
         "API_ID": {
-            "description": "your App ID from my.telegram.org/apps",
+            "description": "26212996",
             "required": true
         },
         "API_HASH": {
-            "description": "your Api hash from my.telegram.org/apps",
+            "description": "76221d523a4eff99bcbb43332fe7f8fa",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "fill with the user id who can access all function in your bot (separate with space).",
+            "description": "1437575022",
             "required": true
         },
         "DURATION_LIMIT": {
@@ -89,12 +89,12 @@
         "UPDATES_CHANNEL": {
             "description": "if you have channel fill the channel username here without @",
             "required": false,
-            "value": "CyberMusicProject"
+            "value": "Westbengalnetwork"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group fill the group username here without @",
             "required": false,
-            "value": "CyberSupportGroup"
+            "value": "Westbengalnetworkchat"
         }
     },
     "buildpacks": [
